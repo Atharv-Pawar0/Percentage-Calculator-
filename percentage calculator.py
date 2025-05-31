@@ -1,9 +1,9 @@
-a_input = input("Enter your Marks: ")
-b_input = input("Enter Total Marks: ")
+a = input("Enter your Marks: ")
+b = input("Enter Total Marks: ")
 
-if a_input.isdigit() and b_input.isdigit():
-    a = int(a_input)
-    b = int(b_input)
+if a.isdigit() and b.isdigit():
+    a = int(a)
+    b = int(b)
 
     if b == 0:
         print("Total marks cannot be zero.")
